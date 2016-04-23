@@ -1,0 +1,19 @@
+%% -*- erlang -*-
+{application, quantumdb,
+ [
+  {description, "Quantumdb a fast scalable system"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  sasl,
+                  riak_core,
+                  setup,
+                  recon,
+                  cowboy,
+                  jsx
+                 ]},
+  {mod, { quantumdb_app, []}},
+  {env, []}
+ ]}.
