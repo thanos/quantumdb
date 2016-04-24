@@ -5,6 +5,8 @@
 
 -ignore_xref([ping/0, get/1, delete/1, put/2, keys/1]).
 
+-define(N, 3).
+-define(W, 3).
 %% Public API
 
 %% @doc Pings a random vnode to make sure communication is functional
@@ -19,12 +21,18 @@ get(Key) ->
 
 put(Key, Value) ->
 	quantumdb_metrics:core_put(),
-	send_command(Key, {put, Key, Value}).
+	ReqID = make_ref(),
+	Timeout = 5000,
+	quantumdb_write_fsm:write(?N, ?W, Key, Value, self(), ReqID),
+	wait_for_reqid(ReqID, Timeout).
 
  
 delete(Key) ->
 	quantumdb_metrics:core_delete(),
-	send_command(Key, {delete, Key}).
+  	ReqID = make_ref(),
+	Timeout = 5000,
+	quantumdb_write_fsm:delete(?N, Key, self(), ReqID),
+	wait_for_reqid(ReqID, Timeout).
 
 keys(Bucket) ->
 	quantumdb_metrics:core_keys(),
@@ -37,3 +45,10 @@ send_command(Key, Cmd) ->
     PrefList = riak_core_apl:get_primary_apl(DocIdx, 1, quantumdb),
     [{IndexNode, _Type}] = PrefList,
     riak_core_vnode_master:sync_spawn_command(IndexNode, Cmd, quantumdb_vnode_master).
+
+wait_for_reqid(ReqID, Timeout) ->
+	receive
+		{ReqID, {error, Reason}} -> {error, Reason};
+		{ReqID, Val} -> Val
+		after Timeout -> {error, timeout}
+	end.

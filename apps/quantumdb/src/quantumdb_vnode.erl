@@ -40,10 +40,10 @@ init([Partition]) ->
 handle_command(ping, _Sender, State) ->
     {reply, {pong, State#state.partition}, State};
 
-handle_command({put, Key, Value}, _Sender,
+handle_command({put, ReqId, Key, Value}, _Sender,
     State=#state{table_name=TableName, partition=Partition}) ->
         ets:insert(TableName, {Key, Value}),
-        {reply, {ok, Partition}, State};
+        {reply, {ReqId, {ok, Partition}}, State};
 
 handle_command({get, Key}, _Sender,
     State=#state{table_name=TableName, partition=Partition}) ->
@@ -54,14 +54,14 @@ handle_command({get, Key}, _Sender,
                 {reply, {found, Partition, {Key, Value}}, State}
         end;
 
-handle_command({delete, Key}, _Sender,
+handle_command({delete, ReqId, Key}, _Sender,
                State=#state{table_name=TableName, partition=Partition}) ->
     case ets:lookup(TableName, Key) of
         [] ->
-            {reply, {not_found, Partition, Key}, State};
+            {reply, {ReqId, {not_found, Partition, Key}}, State};
         [Value] ->
             true = ets:delete(TableName, Key),
-            {reply, {found, Partition, {Key, Value}}, State}
+            {reply, {ReqId, {found, Partition, {Key, Value}}}, State}
     end;
 
 handle_command(Message, _Sender, State) ->

@@ -1,31 +1,31 @@
-2016/04/19-01:22:51.063866 1166fa000                        Version: 2.1.3
-2016/04/19-01:22:51.063896 1166fa000             Options.comparator: leveldb.InternalKeyComparator
-2016/04/19-01:22:51.063900 1166fa000      Options.create_if_missing: 1
-2016/04/19-01:22:51.063903 1166fa000        Options.error_if_exists: 0
-2016/04/19-01:22:51.063906 1166fa000        Options.paranoid_checks: 0
-2016/04/19-01:22:51.063908 1166fa000     Options.verify_compactions: 1
-2016/04/19-01:22:51.063911 1166fa000                    Options.env: 0x7fe2fb41ecf0
-2016/04/19-01:22:51.063913 1166fa000               Options.info_log: 0x7fe2fb702c00
-2016/04/19-01:22:51.063916 1166fa000      Options.write_buffer_size: 8036501
-2016/04/19-01:22:51.063918 1166fa000         Options.max_open_files: 1000
-2016/04/19-01:22:51.063921 1166fa000            Options.block_cache: 0x7fe2fd005200
-2016/04/19-01:22:51.063923 1166fa000             Options.block_size: 4096
-2016/04/19-01:22:51.063926 1166fa000       Options.block_size_steps: 16
-2016/04/19-01:22:51.063928 1166fa000 Options.block_restart_interval: 16
-2016/04/19-01:22:51.063930 1166fa000            Options.compression: 1
-2016/04/19-01:22:51.063933 1166fa000          Options.filter_policy: leveldb.BuiltinBloomFilter2
-2016/04/19-01:22:51.063935 1166fa000              Options.is_repair: false
-2016/04/19-01:22:51.063938 1166fa000         Options.is_internal_db: true
-2016/04/19-01:22:51.063940 1166fa000      Options.total_leveldb_mem: 8453024563
-2016/04/19-01:22:51.063943 1166fa000  Options.block_cache_threshold: 33554432
-2016/04/19-01:22:51.063945 1166fa000  Options.limited_developer_mem: false
-2016/04/19-01:22:51.063947 1166fa000              Options.mmap_size: 0
-2016/04/19-01:22:51.063950 1166fa000       Options.delete_threshold: 1000
-2016/04/19-01:22:51.063952 1166fa000       Options.fadvise_willneed: false
-2016/04/19-01:22:51.063954 1166fa000      Options.tiered_slow_level: 0
-2016/04/19-01:22:51.063956 1166fa000     Options.tiered_fast_prefix: ../quantumdb_data/cluster_meta/trees
-2016/04/19-01:22:51.063959 1166fa000     Options.tiered_slow_prefix: ../quantumdb_data/cluster_meta/trees
-2016/04/19-01:22:51.063961 1166fa000                         crc32c: hardware
-2016/04/19-01:22:51.063963 1166fa000                File cache size: 1662786861
-2016/04/19-01:22:51.063965 1166fa000               Block cache size: 1664884013
-2016/04/19-01:22:51.068251 1166fa000 Delete type=3 #1
+2016/04/24-12:59:18.007113 10a2e0000                        Version: 2.1.3
+2016/04/24-12:59:18.007215 10a2e0000             Options.comparator: leveldb.InternalKeyComparator
+2016/04/24-12:59:18.007221 10a2e0000      Options.create_if_missing: 1
+2016/04/24-12:59:18.007224 10a2e0000        Options.error_if_exists: 0
+2016/04/24-12:59:18.007226 10a2e0000        Options.paranoid_checks: 0
+2016/04/24-12:59:18.007229 10a2e0000     Options.verify_compactions: 1
+2016/04/24-12:59:18.007231 10a2e0000                    Options.env: 0x7ff08341e400
+2016/04/24-12:59:18.007234 10a2e0000               Options.info_log: 0x7ff083600d30
+2016/04/24-12:59:18.007236 10a2e0000      Options.write_buffer_size: 12941260
+2016/04/24-12:59:18.007239 10a2e0000         Options.max_open_files: 1000
+2016/04/24-12:59:18.007242 10a2e0000            Options.block_cache: 0x7ff084019a00
+2016/04/24-12:59:18.007244 10a2e0000             Options.block_size: 4096
+2016/04/24-12:59:18.007247 10a2e0000       Options.block_size_steps: 16
+2016/04/24-12:59:18.007249 10a2e0000 Options.block_restart_interval: 16
+2016/04/24-12:59:18.007252 10a2e0000            Options.compression: 1
+2016/04/24-12:59:18.007255 10a2e0000          Options.filter_policy: leveldb.BuiltinBloomFilter2
+2016/04/24-12:59:18.007258 10a2e0000              Options.is_repair: false
+2016/04/24-12:59:18.007261 10a2e0000         Options.is_internal_db: true
+2016/04/24-12:59:18.007264 10a2e0000      Options.total_leveldb_mem: 8730062028
+2016/04/24-12:59:18.007267 10a2e0000  Options.block_cache_threshold: 33554432
+2016/04/24-12:59:18.007271 10a2e0000  Options.limited_developer_mem: false
+2016/04/24-12:59:18.007276 10a2e0000              Options.mmap_size: 0
+2016/04/24-12:59:18.007280 10a2e0000       Options.delete_threshold: 1000
+2016/04/24-12:59:18.007284 10a2e0000       Options.fadvise_willneed: false
+2016/04/24-12:59:18.007288 10a2e0000      Options.tiered_slow_level: 0
+2016/04/24-12:59:18.007292 10a2e0000     Options.tiered_fast_prefix: ../quantumdb_data/cluster_meta/trees
+2016/04/24-12:59:18.007297 10a2e0000     Options.tiered_slow_prefix: ../quantumdb_data/cluster_meta/trees
+2016/04/24-12:59:18.007302 10a2e0000                         crc32c: hardware
+2016/04/24-12:59:18.007307 10a2e0000                File cache size: 1709401133
+2016/04/24-12:59:18.007311 10a2e0000               Block cache size: 1711498285
+2016/04/24-12:59:18.011766 10a2e0000 Delete type=3 #1

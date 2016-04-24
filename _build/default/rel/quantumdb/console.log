@@ -263,3 +263,106 @@
 2016-04-23 13:46:35.936 [warning] <0.569.0> lager_error_logger_h dropped 118 messages in the last second that exceeded the limit of 50 messages/sec
 2016-04-23 13:46:35.936 [info] <0.661.0> alarm_handler: {clear,system_memory_high_watermark}
 2016-04-23 13:46:35.937 [info] <0.661.0> alarm_handler: {clear,{disk_almost_full,"/"}}
+2016-04-24 11:40:27.617 [info] <0.570.0> Application lager started on node 'quantumdb@127.0.0.1'
+2016-04-24 11:40:27.619 [info] <0.649.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2016-04-24 11:40:27.620 [info] <0.570.0> Application exometer_core started on node 'quantumdb@127.0.0.1'
+2016-04-24 11:40:27.620 [info] <0.570.0> Application poolboy started on node 'quantumdb@127.0.0.1'
+2016-04-24 11:40:27.620 [info] <0.570.0> Application pbkdf2 started on node 'quantumdb@127.0.0.1'
+2016-04-24 11:40:27.621 [info] <0.570.0> Application eleveldb started on node 'quantumdb@127.0.0.1'
+2016-04-24 11:40:27.628 [info] <0.570.0> Application sasl started on node 'quantumdb@127.0.0.1'
+2016-04-24 11:40:27.628 [info] <0.570.0> Application basho_stats started on node 'quantumdb@127.0.0.1'
+2016-04-24 11:40:27.633 [info] <0.570.0> Application os_mon started on node 'quantumdb@127.0.0.1'
+2016-04-24 11:40:27.638 [info] <0.570.0> Application riak_sysmon started on node 'quantumdb@127.0.0.1'
+2016-04-24 11:40:27.638 [info] <0.570.0> Application crypto started on node 'quantumdb@127.0.0.1'
+2016-04-24 11:40:27.643 [info] <0.661.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2016-04-24 11:40:27.643 [info] <0.661.0> alarm_handler: {set,{system_memory_high_watermark,[]}}
+2016-04-24 11:40:27.748 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2016-04-24 11:40:27.770 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2016-04-24 11:40:27.789 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2016-04-24 11:40:27.805 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2016-04-24 11:40:27.825 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2016-04-24 11:40:27.850 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2016-04-24 11:40:27.867 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2016-04-24 12:03:04.817 [info] <0.688.0>@riak_core_app:stop:114 Stopped  application riak_core.
+2016-04-24 12:03:04.823 [warning] <0.569.0> lager_error_logger_h dropped 109 messages in the last second that exceeded the limit of 50 messages/sec
+2016-04-24 12:03:04.823 [info] <0.661.0> alarm_handler: {clear,system_memory_high_watermark}
+2016-04-24 12:03:04.824 [info] <0.661.0> alarm_handler: {clear,{disk_almost_full,"/"}}
+2016-04-24 12:03:16.432 [info] <0.570.0> Application lager started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:03:16.434 [info] <0.649.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2016-04-24 12:03:16.434 [info] <0.570.0> Application exometer_core started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:03:16.435 [info] <0.570.0> Application poolboy started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:03:16.435 [info] <0.570.0> Application pbkdf2 started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:03:16.435 [info] <0.570.0> Application eleveldb started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:03:16.443 [info] <0.570.0> Application sasl started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:03:16.443 [info] <0.570.0> Application basho_stats started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:03:16.450 [info] <0.570.0> Application os_mon started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:03:16.470 [info] <0.570.0> Application riak_sysmon started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:03:16.470 [info] <0.570.0> Application crypto started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:03:16.473 [info] <0.661.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2016-04-24 12:03:16.474 [info] <0.661.0> alarm_handler: {set,{system_memory_high_watermark,[]}}
+2016-04-24 12:03:16.539 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2016-04-24 12:03:16.554 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2016-04-24 12:03:16.567 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2016-04-24 12:03:16.585 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2016-04-24 12:03:16.602 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2016-04-24 12:03:16.617 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2016-04-24 12:03:16.633 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2016-04-24 12:03:31.374 [info] <0.688.0>@riak_core_app:stop:114 Stopped  application riak_core.
+2016-04-24 12:03:31.378 [warning] <0.569.0> lager_error_logger_h dropped 110 messages in the last second that exceeded the limit of 50 messages/sec
+2016-04-24 12:03:31.378 [info] <0.661.0> alarm_handler: {clear,system_memory_high_watermark}
+2016-04-24 12:03:31.378 [info] <0.661.0> alarm_handler: {clear,{disk_almost_full,"/"}}
+2016-04-24 12:04:19.848 [info] <0.570.0> Application lager started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:04:19.851 [info] <0.649.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2016-04-24 12:04:19.852 [info] <0.570.0> Application exometer_core started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:04:19.852 [info] <0.570.0> Application poolboy started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:04:19.853 [info] <0.570.0> Application pbkdf2 started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:04:19.853 [info] <0.570.0> Application eleveldb started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:04:19.864 [info] <0.570.0> Application sasl started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:04:19.864 [info] <0.570.0> Application basho_stats started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:04:19.868 [info] <0.570.0> Application os_mon started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:04:19.873 [info] <0.570.0> Application riak_sysmon started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:04:19.873 [info] <0.570.0> Application crypto started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:04:19.878 [info] <0.661.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2016-04-24 12:04:19.879 [info] <0.661.0> alarm_handler: {set,{system_memory_high_watermark,[]}}
+2016-04-24 12:04:19.926 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2016-04-24 12:04:19.941 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2016-04-24 12:04:19.955 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2016-04-24 12:04:19.969 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2016-04-24 12:04:19.985 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2016-04-24 12:04:20.001 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2016-04-24 12:04:20.016 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2016-04-24 12:04:20.064 [warning] <0.569.0> lager_error_logger_h dropped 6 messages in the last second that exceeded the limit of 50 messages/sec
+2016-04-24 12:04:20.065 [info] <0.570.0> Application riak_core started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:04:20.065 [info] <0.570.0> Application jsx started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:04:20.065 [info] <0.570.0> Application cowlib started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:04:20.065 [info] <0.570.0> Application ranch started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:04:20.065 [info] <0.570.0> Application cowboy started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:04:20.066 [info] <0.570.0> Application recon started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:07:14.021 [info] <0.688.0>@riak_core_app:stop:114 Stopped  application riak_core.
+2016-04-24 12:07:14.028 [warning] <0.569.0> lager_error_logger_h dropped 118 messages in the last second that exceeded the limit of 50 messages/sec
+2016-04-24 12:07:14.028 [info] <0.661.0> alarm_handler: {clear,system_memory_high_watermark}
+2016-04-24 12:07:14.029 [info] <0.661.0> alarm_handler: {clear,{disk_almost_full,"/"}}
+2016-04-24 12:11:02.724 [info] <0.570.0> Application lager started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:11:02.726 [info] <0.649.0>@exometer_report:do_start_reporters:613 Starting reporters with []
+2016-04-24 12:11:02.726 [info] <0.570.0> Application exometer_core started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:11:02.727 [info] <0.570.0> Application poolboy started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:11:02.727 [info] <0.570.0> Application pbkdf2 started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:11:02.727 [info] <0.570.0> Application eleveldb started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:11:02.738 [info] <0.570.0> Application sasl started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:11:02.738 [info] <0.570.0> Application basho_stats started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:11:02.746 [info] <0.570.0> Application os_mon started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:11:02.749 [info] <0.570.0> Application riak_sysmon started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:11:02.750 [info] <0.570.0> Application crypto started on node 'quantumdb@127.0.0.1'
+2016-04-24 12:11:02.750 [info] <0.661.0> alarm_handler: {set,{{disk_almost_full,"/"},[]}}
+2016-04-24 12:11:02.754 [info] <0.661.0> alarm_handler: {set,{system_memory_high_watermark,[]}}
+2016-04-24 12:11:02.825 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,vnode_routing} = proxy
+2016-04-24 12:11:02.843 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,staged_joins} = true
+2016-04-24 12:11:02.856 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,resizable_ring} = true
+2016-04-24 12:11:02.871 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,fold_req_version} = v2
+2016-04-24 12:11:02.883 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,security} = true
+2016-04-24 12:11:02.899 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,bucket_types} = true
+2016-04-24 12:11:02.915 [info] <0.722.0>@riak_core_capability:process_capability_changes:555 New capability: {riak_core,net_ticktime} = true
+2016-04-24 12:57:12.046 [info] <0.688.0>@riak_core_app:stop:114 Stopped  application riak_core.
+2016-04-24 12:57:12.051 [warning] <0.569.0> lager_error_logger_h dropped 112 messages in the last second that exceeded the limit of 50 messages/sec
+2016-04-24 12:57:12.051 [info] <0.661.0> alarm_handler: {clear,system_memory_high_watermark}
+2016-04-24 12:57:12.052 [info] <0.661.0> alarm_handler: {clear,{disk_almost_full,"/"}}
