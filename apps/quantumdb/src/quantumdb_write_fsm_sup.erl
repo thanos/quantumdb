@@ -1,4 +1,4 @@
-%% @doc Supervise the tanodb_write FSM.
+%% @doc Supervise the quantumdb_write FSM.
 -module(quantumdb_write_fsm_sup).
 -behavior(supervisor).
 
